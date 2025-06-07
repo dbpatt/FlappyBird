@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flappy Bird</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1 class="title">Flappy Bird</h1>
+  <canvas id="flappyCanvas" width="1000" height="600"></canvas>
+  <div class="popup-overlay" id="startPopup">
+    <div class="popup-content">
+      <h3>Press the spacebar to start.<br/>Tap the spacebar to navigate through the pipes.</h3>
+    </div>
+  </div>
+  <div class="popup-overlay" id="flappyPopup">
+    <div class="popup-content">
+      <h3>Game Over</h3>
+      <button id="flappyRetryBtn">Retry</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
